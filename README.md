@@ -1,5 +1,0 @@
-
-
-# DataStructure
-
-week1
