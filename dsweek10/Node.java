@@ -5,12 +5,12 @@ public class Node <Key extends Comparable<Key>, Value> {
 	private Value name;
 	private Node<Key, Value> left, right;
 	
-	public Node(Key newld, Value newName) { 
+	public Node(Key newld, Value newName) { // 노드 생성자 id = newId;
 		id = newld;
 		name = newName;
 		left = right = null;
-	}
-
+	} // get과 set 메소드들
+		
 	public Key getKey() { return id; }
 	public Value getValue() { return name; }
 	public Node<Key, Value> getLeft() { return left; }
